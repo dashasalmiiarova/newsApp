@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  /* 
+  font-family: 'Bangers', cursive; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+  width: 70%;
+  margin: auto;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container{
+  height: 100px;
+}
+.header-main{
+  box-shadow: 5px 10px 10px #81818150;
+}
+.logo{
+  font-family: 'Fira Code', monospace;
+  font-weight: 500;
+  font-size: 30px;
+  cursor: pointer;
+}
+.logo-span{
+  color: rgb(59, 238, 178);
+  font-weight: 700;
+}
+.ul-menu{
+  display: flex;
+}
+.li-menu{
+  list-style: none;
+  margin-left: 30px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.li-menu:hover{
+  color: rgb(59, 238, 178);
+}
+.menu-item{
+  font-size: 18px;
+  font-weight: 700;
+}
+.button-random{
+  /* background-color:rgb(59, 238, 178) !important; */
+  color: black !important;
+  border: 1px solid black !important;
+  border-radius: 24px !important;
+  transition: all 0.3s ease-in-out !important;
+  margin-bottom: 20px !important;
+}
+.button-random:hover{
+  background-color: rgba(128, 128, 128, 0.288) !important;
+}
+.container-2{
+  width: 60%;
+  margin: auto;
+}
+.img-random{
+  width: 100%;
+}
+.img-random-div{
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 7px 7px 0 0;
+}
+.random-data-author{
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.random-data{
+  margin-right: 30px;
+}
+.author-bold{
+  font-weight: 700;
+}
+h2{
+  font-family: 'Fira Code', monospace;
+}
+.random-title{
+  margin-bottom: 14px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.random-title:hover{
+  color: rgb(59, 238, 178);
+}
+.button-random{
+  margin-top: 20px !important;
+}
+.random-content{
+  padding: 0 20px;
+}
+.random-main{
+  border-radius: 7px;
+  box-shadow: 0px 0px 15px 0px #d4d4d4;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.random-separator-line{
+  height: 7px;
+  width: 180px;
+  background-color: rgb(59, 238, 178);
+  margin-bottom: 15px;
+}
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+/* Style your items */
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  background: grey;
+  margin-bottom: 30px;
+}
